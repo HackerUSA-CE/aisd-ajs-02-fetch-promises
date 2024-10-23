@@ -104,27 +104,6 @@ function getRandomFact() {
       console.error("Error fetching random cat fact:", error); // Handle any errors
     });
 }
-```
-
-### 3. **Fetching a Single Random Cat Fact**
-
-In this step, you will create a function that uses the **fetch API** to retrieve a single random cat fact from the **CatFacts API**. This will demonstrate how to make a basic network request and handle the response using **promises**.
-
-- [ ] Add the following code to your `index.js` file:
-
-```javascript
-// Fetch a single random cat fact
-function getRandomFact() {
-  fetch(`${baseUrl}/fact`)
-    .then((response) => response.json()) // Convert the response to JSON
-    .then((data) => {
-      console.log("Random Cat Fact:");
-      console.log(data.fact); // Display the cat fact in the console
-    })
-    .catch((error) => {
-      console.error("Error fetching random cat fact:", error); // Handle any errors
-    });
-}
 
 // Call the function to test it
 getRandomFact();
