@@ -338,7 +338,7 @@ With these skills, you can now confidently work with **asynchronous JavaScript**
 
 💾 **Not something to copy and paste** 💾
 
-**Note:**  This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-ajs-01-promises/tree/solution) (link not shown).
+**Note:**  This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-ajs-02-fetch-promises/tree/solution) (link not shown).
 
 ---
 © All rights reserved to ThriveDX
