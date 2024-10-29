@@ -6,17 +6,24 @@
 
 ## Description 📄
 
-JavaScript's **fetch API** combined with **promises** allows developers to handle **asynchronous operations** like retrieving data from external sources, such as APIs. This non-blocking approach ensures that JavaScript can perform other tasks while waiting for the data to be fetched, leading to more efficient and responsive applications.
+JavaScript's **fetch API** is inherently promise-based, meaning it automatically returns a **promise** whenever you make a network request. This built-in promise allows developers to handle **asynchronous operations**—like retrieving data from external sources, such as APIs—without needing to explicitly create a new promise. 
+
+When `fetch` is used, it returns a promise that will eventually either:
+- **Resolve** with the response, if the request is successful, or
+- **Reject** with an error if the request fails.
+
+Using this non-blocking approach ensures that JavaScript can continue executing other tasks while waiting for data to be fetched, leading to more efficient and responsive applications.
 
 In this lab, you'll learn how to use **fetch** and promises to:
 - **Retrieve data** from a web API using HTTP requests.
-- **Handle responses** by parsing JSON and handling success or failure scenarios.
+- **Handle responses** by parsing JSON and managing success or failure scenarios.
 - **Display results** from fetched data in the console.
 - Chain promises to **manage sequential API requests** effectively.
 
 The lab demonstrates how to use **fetch** to interact with the **CatFacts API**, covering how to request a single cat fact, multiple cat facts, and a list of cat breeds. Understanding how to fetch data and handle promises is essential for creating dynamic, data-driven applications in JavaScript.
 
 To learn more about the available endpoints and settings, visit the [CatFacts API website](https://catfact.ninja/). This site provides details on how to use various endpoints, such as fetching a single random cat fact, retrieving multiple facts, and listing cat breeds.
+
 
 ## Expected Project Structure 🏗️
 Your project should be structured as follows:
